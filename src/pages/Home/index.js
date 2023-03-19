@@ -60,8 +60,8 @@ const Home =()=> {
     };
     return ( 
         <Container className="pt-5 mt-5">
-            <div className="d-flex justify-content-between pb-3 pt-2">
-                <CardText tag="h2">All Categories ({categories.length})</CardText>
+            <div className="d-sm-flex justify-content-between pb-3">
+                <CardText tag="h2" className="mb-2">All Categories ({categories.length})</CardText>
                 <button className="btn btn-primary" onClick={()=>{toggleAdd()}}><i className="fa fa-plus pe-2"></i> Create Category</button>
             </div>
             <div>
