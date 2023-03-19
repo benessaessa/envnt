@@ -19,7 +19,7 @@ const Home =()=> {
     const [categories,setCategories]=useState([
         {id:'1',name:'Smart Watch',price:50,image:require('../../assets/images/img1.png')},
         {id:'2',name:'Smart Watch for Boys',price:20,image:require('../../assets/images/img2.png')},
-        {id:'3',name:'Grat watch',price:30,image:require('../../assets/images/img3.png')},
+        {id:'3',name:'Amazing watch',price:30,image:require('../../assets/images/img3.png')},
         {id:'4',name:'Air Boods',price:40,image:require('../../assets/images/img4.png')},
         {id:'5',name:'Cover phone',price:80,image:require('../../assets/images/img5.png')}
     ])

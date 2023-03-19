@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div>
       <Navbar light className="headerHome shadow px-2 py-3 bg-white" fixed="top" expand="lg">
-        <NavbarBrand href="/">
+        <NavbarBrand href="/home">
           <img src={logo} alt="" className="imgLogo" />
         </NavbarBrand>
         <NavbarToggler
