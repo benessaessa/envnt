@@ -1,0 +1,25 @@
+.headerHome{
+    background-color: white;
+    box-shadow: rgb(56 50 40) 0px 0px 3px 0px;
+}
+.headerHome .nav-item .nav-link{
+    color: rgb(104, 103, 103);
+}
+
+.headerHome .nav-item .nav-link.active{
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+}
+.imgLogo{
+    height: 30px;
+    object-fit: cover;
+}
+
+@media screen and (min-width:993px) and (max-width:1200px){
+    .headerHome .navbar-nav .nav-link{
+        padding-right: 0.5rem;
+        padding-left: 0.1rem;
+        font-size: 12px;
+    }
+}
