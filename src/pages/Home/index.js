@@ -85,10 +85,10 @@ const Home =()=> {
             <div>
                 <Row>
                     {categories.map((category,item)=>
-                    <Col key={item} md={4} lg={4} sm={6}>
+                    <Col key={item} md={6} lg={4} sm={6}>
                         <div className="card mb-3 shadow" data-aos='fade-up' data-aos-delay='150' data-aos-duration='1000'>
                             <img className="card-img-top" src={category.image} />
-                            <div className="card-body">
+                            <div className="card-body px-2">
                                 <h5 className="text-capitalize">{category.name}</h5>
                                 <p>{category.price} $</p>
                                 <button className="btn btn-danger" onClick={()=>{toggleDelete();setSelectedItems(category)}}><i className="fa fa-trash-alt pe-2"></i>Delete</button>
